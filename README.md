@@ -8,6 +8,14 @@ I wrote this because my favorite MIDI player cannot read RIFF MIDI I collected m
 
 # Usage
 
+## Run script directly
+
+```
+python3 rmi2mid.py <.rmi or .mid> <.mid>
+```
+
+## For installation by pip/wheel
+
 ```
 python3 -m rmi2mid <.rmi or .mid> <.mid>
 ```
