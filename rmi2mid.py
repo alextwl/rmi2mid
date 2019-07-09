@@ -10,6 +10,14 @@ import sys
 
 
 def rmi2mid(rmi_file, mid_file):
+    '''
+    Extract Standard MIDI file from RIFF MIDI (RMID) file.
+
+    :param rmi_file: Input RIFF MIDI (RMID) file path. (.rmi or .mid)
+    :type rmi_file: str
+    :param mid_file: Output Standard MIDI file path. (.mid)
+    :type mid_file: str
+    '''
     with open(rmi_file, 'rb') as frmi:
         root = chunk.Chunk(frmi, bigendian=False)
 
