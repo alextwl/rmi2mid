@@ -5,13 +5,13 @@ import sys
 import unittest
 
 unittestDir = os.path.dirname(os.path.realpath(__file__))
-scriptDir = os.path.abspath(unittestDir + "/..")
+scriptDir = os.path.abspath(os.path.join(unittestDir, ".."))
 sys.path += [scriptDir]
 
 import rmi2mid
 
-SAMPLE_RMI = unittestDir + "/fur_Elise.rmi"
-SAMPLE_MID = unittestDir + "/fur_Elise_WoO59.mid"
+SAMPLE_RMI = os.path.join(unittestDir, "fur_Elise.rmi")
+SAMPLE_MID = os.path.join(unittestDir, "fur_Elise_WoO59.mid")
 
 
 class TestRmi2mid(unittest.TestCase):
