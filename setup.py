@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rmi2mid",
-    version="0.1",
+    version="0.2",
     author="Wei-Li Tang",
     author_email="alex@ip6.tw",
     description="Extract Standard MIDI file (.mid) from RIFF MIDI (RMID) file (.rmi or .mid).",

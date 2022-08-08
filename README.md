@@ -24,10 +24,6 @@ python3 -m rmi2mid <.rmi or .mid> <.mid>
 
 Currently an RIFF file with (nested) LIST chunks is not supported.
 
-## TODO
-
-* Write a chunk parser. [PEP 594](https://www.python.org/dev/peps/pep-0594/) is going to deprecate and remove chunk module from python 3.8 and 3.10.
-
 ## Reference
 
 * [Bundling SMF and DLS data in an “RMID” File (RP-029)](http://web.archive.org/web/20110610135604/http://www.midi.org/about-midi/rp29spec(rmid).pdf)
